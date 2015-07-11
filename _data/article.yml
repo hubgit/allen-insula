@@ -1,84 +1,142 @@
 # Note: to avoid repeating the same data multiple times,
 # identifiers (starting with "&") are referenced later (starting with "*")
 
-title: "My First Article"
-date: 2015-03-15T12:00:00Z
-doi: # e.g. 10.1234/example.1
-github: # e.g. user-name/paper-now
+title: "Evidence for embodied predictive coding: the anterior insula coordinates cortical processing of tactile deviancy"
+date: 2015-07-01T12:00:00Z
+doi: #10.7287/peerj.preprints.1203v1
+github: #hubgit/allen-insula
 
 authors:
-  - &alice-exemplar
-    id: "alice-exemplar"
-    name: "Alice Exemplar"
-    email: "alice.exemplar@example.com"
-    url: http://example.com/authors/1
-    orcid: "0000-0002-9298-3168"
+  - &micah-allen
+    id: "micah-allen"
+    name: "Micah Allen"
+    email: "micah.allen@ucl.ac.uk"
+    url: http://neuroconscience.com/micah-allen/
+    orcid: "0000-0001-9399-4179"
 
-  - &bob-exemplar
-    id: "bob-exemplar"
-    name: "Bob Exemplar"
-    orcid: "0000-0002-9341-7985"
+  - &francesca-fardo
+    id: "francesca-fardo"
+    name: "Francesca Fardo"
+    url: "https://twitter.com/francescafardo"
+
+  - &martin-dietz
+    id: "martin-dietz"
+    name: "Martin J Dietz"
+    orcid: "0000-0003-0029-6932"
+    url: http://pure.au.dk/portal/en/martin@cfin.au.dk
+
+  - &hauke-hillebrandt
+    id: "hauke-hillebrandt"
+    name: "Hauke Hillebrandt"
+    url: https://sites.google.com/site/haukehillebrandt/
+
+  - &geraint-rees
+    id: "geraint-rees"
+    name: "Geraint Rees"
+    orcid: "0000-0002-9623-7007"
+
+  - &andreas-roepstorff
+    id: "andreas-roepstorff"
+    name: "Andreas Roepstorff"
+    url: http://pure.au.dk/portal/en/andreas.roepstorff@cas.au.dk
 
 affiliations:
-  - name: "Stanford University"
-    department: "Department of Mathematics"
-    location: "Stanford, California, USA"
+  - name: "Institute of Cognitive Neuroscience, University College London"
+    location: "London WC1N 3AR, United Kingdom"
     url: http://mathematics.stanford.edu/
     members:
-      - *alice-exemplar
-      - *bob-exemplar
+      - *micah-allen
+      - *hauke-hillebrandt
+      - *geraint-rees
+
+  - name: "Wellcome Trust Centre for Neuroimaging, University College London"
+    location: "London WC1N 3BG, United Kingdom"
+    url: http://www.fil.ion.ucl.ac.uk/
+    members:
+      - *micah-allen
+      - *geraint-rees
+
+  - name: "Center of Functionally Integrative Neuroscience, Aarhus University Hospital"
+    location: "Aarhus 8000, Denmark"
+    url: http://cfin.au.dk/
+    members:
+      - *francesca-fardo
+      - *martin-dietz
+      - *andreas-roepstorff
 
   - name: "Harvard University"
-    department: "Department of Molecular and Cellular Biology"
-    location: "Cambridge, MA, USA"
+    location: "Cambridge, MA, 02138, United States"
+    url: http://www.harvard.edu/
     members:
-      - *alice-exemplar
+      - *hauke-hillebrandt
+
+  - name: "Interacting Minds Centre, Aarhus University"
+    location: "DK-8000 Aarhus C, Denmark"
+    url: http://interactingminds.au.dk/
+    members:
+      - *andreas-roepstorff
 
 funders:
-  - name: "Medical Research Council"
-    sameAs: "http://dx.doi.org/10.13039/501100000265"
+  - name: "MINDLab Aarhus University"
+    url: https://mindlab.au.dk/
     awards:
-      - name: MRC123
-        recipients:
-          - *alice-exemplar
-          - *bob-exemplar
-      - name: MRC456
-        recipients:
-          - *alice-exemplar
-          - *bob-exemplar
+      - recipients:
+        - *andreas-roepstorff
+        - *micah-allen
+        - *francesca-fardo
 
-  - name: "National Institutes of Health"
-    url: http://www.nih.gov/
-    sameAs: "http://dx.doi.org/10.13039/100000002"
+  - name: "Danish Agency for Science, Technology and Innovation"
+    url: http://ufm.dk/
     awards:
-      - name: NIH123
-        recipients:
-          - *alice-exemplar
+      - recipients:
+        - *martin-dietz
+
+  - name: "Wellcome Trust"
+    url: http://www.wellcome.ac.uk/
+    awards:
+      - recipients:
+        - *micah-allen
+        - *geraint-rees
 
 contributions:
-  - name: "Methodology"
-    url: http://dictionary.casrai.org/Contributor_Roles/Methodology
+  - name: "Conceptualization"
+    url: http://dictionary.casrai.org/Contributor_Roles/Conceptualization
     contributors:
-      - *alice-exemplar
-      - *bob-exemplar
+      - *micah-allen
+      - *francesca-fardo
+      - *martin-dietz
+      - *hauke-hillebrandt
+      - *andreas-roepstorff
 
   - name: "Investigation"
     url: http://dictionary.casrai.org/Contributor_Roles/Investigation
     contributors:
-      - *alice-exemplar
-      - *bob-exemplar
+      - *micah-allen
+      - *francesca-fardo
 
-  - name: "Software"
-    url: http://dictionary.casrai.org/Contributor_Roles/Software
+  - name: "Formal Analysis"
+    url: http://dictionary.casrai.org/Contributor_Roles/Formal_analysis
     contributors:
-      - *bob-exemplar
+      - *micah-allen
+      - *francesca-fardo
+
+  - name: "Visualization"
+    url: http://dictionary.casrai.org/Contributor_Roles/Visualization
+    contributors:
+      - *micah-allen
+      - *francesca-fardo
 
   - name: "Writing - original draft"
     url: http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft
     contributors:
-      - *alice-exemplar
+      - *micah-allen
+      - *francesca-fardo
+      - *geraint-rees 
 
-  - name: "Writing - review & editing"
-    url: http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing
+  - name: "Resources"
+    url: http://dictionary.casrai.org/Contributor_Roles/Resources
     contributors:
-      - *bob-exemplar
+      - *martin-dietz
+      - *hauke-hillebrandt
+      - *geraint-rees
+      - *andreas-roepstorff

@@ -6,7 +6,7 @@
       {% else %}
         {{ funder.name }}
       {% endif %}
-      ({{ award.name }})
+      {% if award.name %}({{ award.name }}){% endif %}
     </h3>
   </div>
 

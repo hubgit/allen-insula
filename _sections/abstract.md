@@ -3,6 +3,4 @@ title: Abstract
 order: 1
 container: header
 ---
-This is the first paragraph of the abstract.
-
-This is another paragraph of the abstract.
+Embodied awareness is the pervasive, multimodal self-awareness that is thought to form the foundation of emotion. This awareness was recently proposed to rely on the anterior insular cortex (AIC) comparing expected and actual bodily signals arising in prefrontal and sensory cortices. To investigate this possibility in the somatosensory domain, we measured brain activity using functional magnetic resonance imaging while healthy participants discriminated tactile stimuli in a roving oddball design. Dynamic Causal Modelling revealed that unexpected stimuli increased the strength of forward connections in a caudal to rostral ascending hierarchy from thalamic and somatosensory regions towards insula, cingulate and prefrontal cortices, consistent with hierarchical predictive coding. Within this feed-forward flow of neural coupling, the AIC increased both forwards and backwards connections with prefrontal and somatosensory cortex, supporting a comparator role. Further, we found that greater prefrontal to AIC connectivity predicted subjective ratings of stimulus discrimination difficulty. These results are interpreted in light of embodied predictive coding, suggesting that the AIC coordinates global cortical processing of tactile changes to support body awareness.
