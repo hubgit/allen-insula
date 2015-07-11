@@ -7,14 +7,16 @@ description: ""
 source:
 ---
 <table class="table table-bordered">
-	<tbody>
+	<thead>
 		<tr>
-			<td>Label</td>
-			<td>k</td>
-			<td>P<sub>FWE</sub></td>
-			<td>T</td>
-			<td>MNI<sub>XYZ</sub></td>
+			<th>Label</th>
+			<th>k</th>
+			<th>P<sub>FWE</sub></th>
+			<th>T</th>
+			<th>MNI<sub>XYZ</sub></th>
 		</tr>
+	</thead>
+	<tbody>
 		<tr>
 			<td>R Anterior Insula</td>
 			<td>403</td>
