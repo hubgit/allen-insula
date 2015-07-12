@@ -28,7 +28,7 @@
 * Gu X, Hof PR, Friston KJ, Fan J. 2013. [Anterior insular cortex and emotional awareness](https://dx.doi.org/10.1002/cne.23368)
 * Huang M-X, Lee RR, Miller GA, Thoma RJ, Hanlon FM, Paulson KM, Martin K, Harrington DL, Weisend MP, Edgar JC, Canive JM. 2005. [A parietal–frontal network studied by somatosensory oddball MEG responses, and its cross-modal consistency](https://dx.doi.org/10.1016/j.neuroimage.2005.05.036)
 * Hutton C, Bork A, Josephs O, Deichmann R, Ashburner J, Turner R. 2002. [Image Distortion Correction in fMRI: A Quantitative Evaluation](https://dx.doi.org/10.1006/nimg.2001.1054)
-* Hutton C, Deichmann R, Turner R, Andersson JLR. 2004. [Combined correction for geometric distortion and its interaction with head motion in fMRI]
+* Hutton C, Deichmann R, Turner R, Andersson JLR. 2004. [Combined correction for geometric distortion and its interaction with head motion in fMRI](http://cds.ismrm.org/ismrm-2004/Files/001084.pdf)
 * Iglesias S, Mathys C, Brodersen KH, Kasper L, Piccirelli M, den Ouden HEM, Stephan KE. 2013. [Hierarchical Prediction Errors in Midbrain and Basal Forebrain during Sensory Learning](https://dx.doi.org/10.1016/j.neuron.2013.09.009)
 * Kekoni J, Hämäläinen H, Saarinen M, Gröhn J, Reinikainen K, Lehtokoski A, Näätänen R. 1997. [Rate effect and mismatch responses in the somatosensory system: ERP-recordings in humans](https://dx.doi.org/10.1016/s0301-0511\(97\)05249-6)
 * Keltner JR. 2006. [Isolating the Modulatory Effect of Expectation on Pain Transmission: A Functional Magnetic Resonance Imaging Study](https://dx.doi.org/10.1523/jneurosci.4463-05.2006)
