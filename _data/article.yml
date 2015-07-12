@@ -34,6 +34,7 @@ authors:
     id: "geraint-rees"
     name: "Geraint Rees"
     orcid: "0000-0002-9623-7007"
+    url: http://www.fil.ion.ucl.ac.uk/~grees/
 
   - &andreas-roepstorff
     id: "andreas-roepstorff"
@@ -131,7 +132,7 @@ contributions:
     contributors:
       - *micah-allen
       - *francesca-fardo
-      - *geraint-rees 
+      - *geraint-rees
 
   - name: "Resources"
     url: http://dictionary.casrai.org/Contributor_Roles/Resources
